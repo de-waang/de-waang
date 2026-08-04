@@ -1,0 +1,54 @@
+# ════════════════════════════════════════════════════════════════════════════
+# 🐍 Contribution Snake Animation
+# ────────────────────────────────────────────────────────────────────────────
+# Generates the classic "snake eating your contributions" animation from the
+# contribution graph and publishes the SVGs to the `output` branch.
+#
+# SETUP (one-time):
+#   1. Merge this workflow into the default branch (main).
+#   2. Go to Actions → "Generate Contribution Snake" → "Run workflow" to
+#      generate the first snake immediately (otherwise it runs daily at 00:00 UTC).
+#   3. The README references:
+#        https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake.svg
+#
+# NOTE: The snake is generated from @BravesDevs' contribution graph (primary
+# account with full history). To track this account instead, change
+# `github_user_name` below to `de-waang`.
+# ════════════════════════════════════════════════════════════════════════════
+
+name: 🐍 Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at 00:00 UTC
+  workflow_dispatch: # allow manual runs
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVG (light + dark)
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: BravesDevs
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish snake SVGs to `output` branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "🐍 Update contribution snake animation"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
