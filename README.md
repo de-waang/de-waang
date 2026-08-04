@@ -41,8 +41,8 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ ABOUT ME ═══════════ -->
-<h2> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About Me </h2>
+<!-- ═══════════ ABOUT ═══════════ -->
+<h2> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> About </h2>
 
 <img align="right" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding gif"/>
 
@@ -96,8 +96,8 @@ const devang = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ TECH STACK ═══════════ -->
-<h2> 🛠️ Tech Arsenal </h2>
+<!-- ═══════════ STACK ═══════════ -->
+<h2> 🛠️ Stack </h2>
 
 <h3 align="center">Languages & Frameworks</h3>
 <p align="center">
@@ -128,15 +128,15 @@ const devang = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ FEATURED PROJECTS ═══════════ -->
-<h2> 🚀 Featured Projects </h2>
+<!-- ═══════════ PROJECTS ═══════════ -->
+<h2> 🚀 Projects </h2>
 
 <p align="center">
   <a href="https://github.com/BravesDevs/Agentable.io">
-    <img src="./profile/pin-agentable.svg" alt="Agentable.io"/>
+    <img height="140" src="./profile/pin-agentable.svg" alt="Agentable.io"/>
   </a>
   <a href="https://github.com/BravesDevs/Gujarati-Accent-Detection">
-    <img src="./profile/pin-gujarati-accent.svg" alt="Gujarati Accent Detection"/>
+    <img height="140" src="./profile/pin-gujarati-accent.svg" alt="Gujarati Accent Detection"/>
   </a>
 </p>
 
@@ -173,30 +173,25 @@ const devang = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ GITHUB ANALYTICS ═══════════ -->
-<h2> 📊 GitHub Analytics </h2>
+<!-- ═══════════ ANALYTICS ═══════════ -->
+<h2> 📊 Analytics </h2>
 
 <p align="center">
-  <img height="180em" src="./profile/stats.svg" alt="GitHub stats"/>
-  <img height="180em" src="./profile/top-langs.svg" alt="Top languages"/>
+  <img height="195" src="./profile/stats.svg" alt="GitHub stats"/>
+  <img height="195" src="./profile/top-langs.svg" alt="Top languages"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=BravesDevs&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+  <img height="195" src="https://streak-stats.demolab.com?user=BravesDevs&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=BravesDevs&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph"/>
 </p>
 
 <p align="center">
   <img src="https://github-trophies.vercel.app/?username=BravesDevs&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub trophies"/>
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=BravesDevs&theme=tokyo-night&hide_border=true&area=true" alt="Contribution activity graph"/>
-</p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- ═══════════ LEETCODE ═══════════ -->
-<h2> 🧩 LeetCode </h2>
 
 <p align="center">
   <a href="https://leetcode.com/devangmp">
@@ -206,21 +201,21 @@ const devang = {
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ CONTRIBUTION SNAKE ═══════════ -->
-<h2> 🐍 Contribution Snake </h2>
+<!-- ═══════════ SNAKE ═══════════ -->
+<h2> 🐍 Snake </h2>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake.svg"/>
-    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake.svg"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake-dark.svg?v=2"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake.svg?v=2"/>
+    <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/de-waang/de-waang/output/github-contribution-grid-snake.svg?v=2"/>
   </picture>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-<!-- ═══════════ DEV QUOTE ═══════════ -->
-<h2> ✍️ Random Dev Quote </h2>
+<!-- ═══════════ QUOTE ═══════════ -->
+<h2> ✍️ Quote </h2>
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote"/>
@@ -229,7 +224,7 @@ const devang = {
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- ═══════════ CONNECT ═══════════ -->
-<h2> 🤝 Let's Connect </h2>
+<h2> 🤝 Connect </h2>
 
 <p align="center">
   <a href="https://linkedin.com/in/bravesdevs">
