@@ -157,7 +157,6 @@ const devang = {
       <p align="center"><em>ML-powered dialect classifier</em></p>
       <ul>
         <li>Five-way Gujarati regional dialect classification — Ahmedabadi, Charotari, Surati, Mahesani, Kathiyavadi</li>
-        <li>Three input paths: typed transcription, browser speech capture (Web Speech API) & audio upload</li>
         <li>Research-grade Keras classifier behind a reproducible Django web interface</li>
         <li><strong>Stack:</strong> Python · Django 5 · Keras · SpeechRecognition · Web Speech API</li>
       </ul>
